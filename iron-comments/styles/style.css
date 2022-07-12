@@ -4,8 +4,6 @@ body {
     padding-top: 100px;
     width: 100vw;  
     background-color: rgb(25, 33, 41);  
-    
-
 }
 
 #form-container {
@@ -13,7 +11,6 @@ body {
     padding: 100px 100px 50px 50px;
     width: 250px;
     color: white;
-
 }
 
 .background-color{
@@ -23,13 +20,20 @@ body {
 .fieldset{
     border-color: rgb(67, 163, 230);
     padding: 20px 30px 20px 20px;
+    border-radius: 5px;
 }
 
 #submit{
     margin-top: 10px;
+    background-color: rgb(67, 163, 230);
+    color: white;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .format{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+

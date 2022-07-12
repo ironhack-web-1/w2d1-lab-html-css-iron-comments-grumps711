@@ -11,30 +11,35 @@
 </head>
 <body>
     <form id="form-container">
-
-        <fieldset class="fieldset" >
-            <label class="name format" for="name">Name:</label>
-            <br>
-            <input type="text" id="name" class="format">
-            <br>
-       
-            <label class="email format" for="email">Email:</label>
-            <br>
-            <input class="format" type="email" id="email">
-            <br>
-       
-            <label class="comment format" for="comment">Comment:</label>
-            <textarea id="comment" class="format" name="comment" cols="17" rows="10">
-
-            </textarea>
-            <br>
         
-            <label class="updates format" for="updates"><i>Recieve email updates?</i></label>
-            <input type="checkbox">
-            <br>
+        <fieldset class="fieldset" >
+            
+            <div>
+                <label class="name format" for="name">Name:</label>
+                <input type="text" id="name" class="format">
+            </div>  
+            
+            <div>
+                <label class="email format" for="email">Email:</label>
+                <input class="format" type="email" id="email">
+            </div>
        
-            <label class="submit" for="submit"></label>
-            <input id="submit" type="submit" value="Submit">
+            <div>
+                <label class="comment format" for="comment">Comment:</label>
+                <textarea id="comment" class="format" name="comment" cols="17" rows="10">
+                </textarea>
+            </div>
+            
+            <div>
+                <label class="updates format" for="updates"><i>Recieve email updates?</i></label>
+                <input type="checkbox">
+            </div>
+       
+            <div>
+                <label class="submit" for="submit"></label>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        
         </fieldset>
        
     </form>
